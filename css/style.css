@@ -1,170 +1,193 @@
 @font-face {
-  font-family: "Setofont";
-  src: url("../fonts/setofont.ttf");
+    font-family: "Setofont";
+    src: url("../fonts/setofont.ttf");
 }
 .body {
-  width: 1280px;
-  height: 1653px;
-  margin: 0px;
-  background-color: #404040;
-  margin-left:auto;
-  margin-right:auto;
-  font-family: 'Setofont';
-  font-size: 25px;
+    width: 1280px;
+    margin: 0px;
+    background-color: #404040;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Setofont';
+    font-size: 25px;
 }
 .header {
-  width: 1280px;
-  height: 186px;
-  background-color: #000000;
+    width: 1280px;
+    height: 186px;
+    background-color: #000000;
+    font-size: 30px;
 }
 .logo {
-  margin: 30px 23px 68px 47px;
-  float: left;
+    margin: 30px 23px 68px 47px;
+    float: left;
 }
 .ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+.ul>a {
+    color: inherit;
+    text-decoration: none;
 }
 .header_li {
-  width: 177px;
-  height: 73px;
-  background-color: #BFBFBF;
-  margin: 113px 0px 0px 6px;
-  list-style: none;
-  float: left;
-  text-align: center;
-  line-height: 67px;
-  font-weight: bold;
+    width: 177px;
+    height: 73px;
+    background-color: #BFBFBF;
+    margin: 113px 0px 0px 6px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    line-height: 67px;
+    font-weight: bold;
 }
 .header_li:hover {
-  background-color: #E5E5E5;
+    background-color: #E5E5E5;
 }
 .header_li:active {
-  background-color: #7F7F7F;
+    background-color: #7F7F7F;
+}
+.page_title {
+    font-size: 30px;
+    height: 105px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 58px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
 }
 .article_first {
-  width: 1187px;
-  height: 480px;
-  margin: 27px 41px 30px 42px;
-  padding: 5px;
-  background-color: #BFBFBF;
+    width: 1187px;
+    height: 480px;
+    margin: 27px 41px 30px 42px;
+    padding: 5px;
+    background-color: #BFBFBF;
 }
 .article_first_div1 {
-  width: 779px;
-  height: 480px;
-  float: left;
-  position: relative;
+    width: 779px;
+    height: 480px;
+    float: left;
+    position: relative;
 }
 .article_first_div2 {
-  width: 408px;
-  height: 239px;
-  float: left;
-  position: relative;
+    width: 408px;
+    height: 239px;
+    float: left;
+    position: relative;
 }
 .article_first_img {
-  margin: 5px;
-  display: block;
+    margin: 5px;
+    display: block;
 }
 .article_first_text {
-  margin: 0;
-  background-color: rgba(64, 64, 64, 0.8);
-  color: #FFFFFF;
+    margin: 0;
+    background-color: rgba(64, 64, 64, 0.8);
+    color: #FFFFFF;
 }
 .article_first_text:hover {
-  margin: 0;
-  background-color: rgba(127, 127, 127, 0.8);
-  color: #FFFFFF;
+    margin: 0;
+    background-color: rgba(127, 127, 127, 0.8);
+    color: #FFFFFF;
 }
 .article_first_text_style1 {
-  width: 270px;
-  height: 94px;
-  position: absolute;
-  top: 79.3%;
-  left: 0.6%;
-  text-align: center;
-  line-height: 94px;
+    width: 270px;
+    height: 94px;
+    position: absolute;
+    top: 79.3%;
+    left: 0.6%;
+    text-align: center;
+    line-height: 94px;
 }
 .article_first_text_style2 {
-  width: 220px;
-  height: 80px;
-  position: absolute;
-  top: 64.5%;
-  left: 1.3%;
-  text-align: center;
-  line-height: 80px;
+    width: 220px;
+    height: 80px;
+    position: absolute;
+    top: 64.5%;
+    left: 1.3%;
+    text-align: center;
+    line-height: 80px;
 }
 .article_second {
-  width: 1189px;
-  height: 809px;
-  margin: 0px 44px 35px 47px;
+    width: 1189px;
+    height: 809px;
+    margin: 0px 44px 35px 47px;
 }
 .article_second_div1 {
-  width: 779px;
-  height: 809px;
-  margin: 0px 39px 0px 0px;
-  float: left;
+    width: 779px;
+    height: 809px;
+    margin: 0px 39px 0px 0px;
+    float: left;
 }
 .article_second_div1_li {
-  width: 164px;
-  height: 57px;
-  background-color: #BFBFBF;
-  list-style: none;
-  float: left;
-  text-align: center;
-  line-height: 57px;
-  font-weight: bold;
-  border-style: solid;
-  border-color: #404040;
-  border-width: 1px;
+    width: 164px;
+    height: 57px;
+    background-color: #BFBFBF;
+    list-style: none;
+    float: left;
+    text-align: center;
+    line-height: 57px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #404040;
+    border-width: 1px;
 }
 .article_second_div1_li:hover {
-  background-color: #E5E5E5;
+    background-color: #E5E5E5;
 }
 .article_second_div1_li:active {
-  background-color: #7F7F7F;
+    background-color: #7F7F7F;
 }
 .article_second_div1_div {
-  width: 779px;
-  height: 750px;
-  background-color: #EAEAEA;
-  float: left;
-  border-style: solid;
-  border-color: #404040;
-  border-width: 1px;
-  border-top: none;
+    width: 779px;
+    height: 750px;
+    background-color: #EAEAEA;
+    float: left;
+    border-style: solid;
+    border-color: #404040;
+    border-width: 1px;
+    border-top: none;
 }
 .article_second_div2 {
-  width: 371px;
-  height: 809px;
-  margin: 0;
-  float: left;
+    width: 371px;
+    height: 809px;
+    margin: 0;
+    float: left;
 }
 .article_second_div2_div {
-  width: 371px;
-  height: 750px;
-  background-color: #EAEAEA;
-  float: left;
-  border-style: solid;
-  border-color: #404040;
-  border-width: 1px;
-  border-top: none;
+    width: 371px;
+    height: 750px;
+    background-color: #EAEAEA;
+    float: left;
+    border-style: solid;
+    border-color: #404040;
+    border-width: 1px;
+    border-top: none;
 }
 .footer {
-  width: 1280px;
-  height: 76px;
-  background-color: #000000;
+    float: left;
+    width: 1280px;
+    height: 76px;
+    background-color: #000000;
 }
 .footer_web {
-  width: 234px;
-  height: 24px;
-  margin: 28px 0px 24px 50px;
-  color: #FFFFFF;
-  float: left;
+    width: 234px;
+    height: 24px;
+    margin: 28px 0px 24px 50px;
+    color: #FFFFFF;
+    float: left;
 }
 .footer_tel {
-  width: 265px;
-  height: 24px;
-  margin: 28px 55px 24px 0px;
-  color: #FFFFFF;
-  float: right;
+    width: 265px;
+    height: 24px;
+    margin: 28px 55px 24px 0px;
+    color: #FFFFFF;
+    float: right;
+}
+
+/*clear float*/
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
 }
