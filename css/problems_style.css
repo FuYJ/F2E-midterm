@@ -21,13 +21,14 @@
 }
 .link_block_pic_title {
     position: absolute;
+    font-size: 30px;
     top: 249px;
     left: 0px;
     width: 588px;
     height: 104px;
     padding-top: 40px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
 }
 .link_block_pic_mask{
