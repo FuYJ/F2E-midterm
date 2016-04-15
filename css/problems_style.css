@@ -14,6 +14,11 @@
     position: relative;
     float: left;
 }
+.link_block_pic > img{
+    max-width: 588px;
+    max-height: 353px;
+        margin: auto;
+}
 .link_block_pic_title {
     position: absolute;
     top: 249px;
@@ -24,6 +29,16 @@
     text-align: center;
     background-color: rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
+}
+.link_block_pic_mask{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 588px;
+    height: 353px;
+}
+.link_block_pic_mask:hover{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .link_block_description {
     display: table;
@@ -49,14 +64,4 @@
     color: rgb(32, 32, 32);
     margin: 0px;
     font-size: 25px;
-}
-.link_block_pic_mask{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 588px;
-    height: 353px;
-}
-.link_block_pic_mask:hover{
-    background-color: rgba(255, 255, 255, 0.5);
 }
