@@ -10,7 +10,7 @@
 .link_block_pic {
     width: 588px;
     height: 353px;
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(32, 32, 32);
     position: relative;
     float: left;
 }
@@ -50,16 +50,13 @@
     margin: 0px;
     font-size: 25px;
 }
-.link_block_normal{
+.link_block_pic_mask{
     position: absolute;
     top: 0px;
     left: 0px;
     width: 588px;
     height: 353px;
 }
-.link_block_hover{
-    position: absolute;
-    width: 588px;
-    height: 353px;
+.link_block_pic_mask:hover{
     background-color: rgba(255, 255, 255, 0.5);
 }
