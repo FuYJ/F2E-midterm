@@ -1,14 +1,8 @@
 $(document).ready(function(){
 
   $(".article_second_div1_li").click(function(){
-    var index = $(this).index();
-    if(index == 0){
-      window.location.assign("latestnews.html");
-    }
-    else{
-      $(".article_second_div1_li").removeClass("active-click");
-      $(this).addClass("active-click");
-    }
+    $(".article_second_div1_li").removeClass("active-click");
+    $(this).addClass("active-click");
     return false;
   });
 
